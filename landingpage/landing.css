@@ -1,0 +1,205 @@
+*{
+    padding:0;margin:0;box-sizing: border-box;
+  
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    font-size: 16px;
+    line-height: 1.6;
+    scroll-behavior: smooth;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);   
+    width: 100%;
+    height: 35px;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    gap: 1.2rem;
+    box-shadow: 0 4px 8px -2px rgba(0, 0, 0, 0.155);
+}
+#nav-feat{
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+    
+}
+#nav-feat a{
+    
+    padding-left: 10px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    font-size: small;
+}
+#myproduct{
+    /* background-color: rgb(189, 189, 189); */
+    color: rgb(99, 99, 255);
+    font-size: small;
+    display: flex;
+    align-items: center;
+}
+.hero #sec1 {
+    /* background-color: rgb(189, 189, 189); */
+    padding-top:40px;
+    padding-left:40px;
+    padding-right:100px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-between;
+}
+.btn{
+    background-color: rgb(106, 106, 255);
+    color: rgb(255, 255, 255);
+    border:none ;
+    border-radius: 3px;
+    padding: 2px;
+    width:65px;
+}
+#sec2{
+    text-align: center;
+    display:flex;
+    justify-content: center;
+   height: 150px;
+    gap:10px;
+}
+
+#sec2 .card{
+    padding:10px 0px;
+    border-radius: 10px;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+   
+    height:60px;
+    width: 200px;
+    font-size:smaller;
+    line-height: 14px;
+   /* text-align: center; */
+}
+.card h5  {
+    font-weight: 100;
+    
+} 
+.head2{
+
+    text-align: center;
+    font-size: large;
+    line-height: 50px;
+}
+#sec2 ,.head2,#sec1{
+    background-color: rgba(222, 222, 222, 0.811);
+}
+#sec2 .card:hover{
+ box-shadow: 0 4px 8px -2px rgba(0, 0, 0, 0.7);
+}
+
+/* #sec3 */
+#sec3{
+    height: 120px;
+    margin: 10px 15px;
+ text-align: center;
+    display:flex;
+    justify-content: center;
+   
+    gap:13px;
+
+    /* try with grid */
+    /* display:grid;
+    grid-template-columns: 30% 30% 30%;
+    /* gap:100px; */
+    /* column-gap: 10px;
+    justify-items:center;
+    padding-left: 10px; */ 
+    /* background-color: rgb(255, 255, 255); */
+}
+.head3{
+    text-align: center;
+    font-size: large;
+    line-height: 50px;
+}
+/* #sec3 #choose{
+    grid-column: 1/4;
+    align-self: center;
+    font-size:medium;
+} */
+#sec3 .card1{
+    font-size: smaller;
+    
+  
+    height: 90px;
+    width: 200px;
+    background-color: rgb(229, 229, 229);
+    border-radius: 7px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.card1 h2{
+    font-weight: 700;
+    font-size: small;
+}
+.card1 h3{
+    font-size: smaller;
+    font-weight: 100;
+    justify-content: center;
+    /* padding-top: 10px; */
+}
+.card1 .btn{
+    margin-top: 10px;
+}
+#sec3 .card1:hover{
+box-shadow: 0 4px 8px -2px rgba(0, 0, 0, 0.7);
+}
+#sec4{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 80px;
+}
+#sec4,#head4{
+    background-color: #e6e6e6;
+}
+#head4{
+    text-align: center;
+    font-size: large;
+    line-height: 50px;
+}
+#sec4 div{
+    /* border:1px solid black; */
+    background-color: #ffffff;
+    height: 70px;
+    width:180px;
+    border-radius: 4px;
+    
+    margin-left: 10px;
+    padding: 10px;
+    font-size: xx-small;
+    text-align: center;
+}
+#sec4 div h3{
+  font-weight:100;
+}
+#sec4 div:hover{
+    box-shadow: 0 4px 8px -2px rgba(0, 0, 0, 0.7);
+    /* transition-delay: 0.1s; */
+    /* transition-timing-function:all .5s ease-in; */
+    /* transform: translateY(-10px); */
+}
+footer div{
+    background-color: rgb(193, 193, 193);
+    display: flex;
+justify-content: center;
+align-items: center;
+}
+footer div h3{
+    font-weight: 100;
+    font-size: small;
+}
+
+
